@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # 🍏 JPA Unique Constraint
-=======
-# 🍏 JPA Unique Constraint 사용하기
->>>>>>> 9729b3dbe858119e6d947eadc6505761f2ec36ba
 
 유니크 제약조건을 사용하는 이유는 중복된 값 입력을 방지하기 위해서다.
 
@@ -78,7 +74,6 @@ Unique Constraint 은 DDL에 포함 되어야 된다.
 @UniqueConstraint(name = "UniqueSecurityAndDepartment", columnNames = {"securityNumber", "departmentCode"})})
 > 
 
-<<<<<<< HEAD
 ### 주의사항( 외래키를 복합 유니크 키에서 사용할 경우)
 
 엔티티 명이 아니라 실제 테이블의 컬럼 이름을 사용하면 된다.
@@ -94,8 +89,6 @@ Unique Constraint 은 DDL에 포함 되어야 된다.
 )
 ```
 
-=======
->>>>>>> 9729b3dbe858119e6d947eadc6505761f2ec36ba
 ## 정리
 
 Unique constraint를 사용해서 두 개 이상의 행이 열 또는 열 집합에서 동일한 값을 가질 수 없게 만들 수 있다.
