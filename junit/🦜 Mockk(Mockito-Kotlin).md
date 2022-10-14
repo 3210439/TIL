@@ -1,6 +1,6 @@
 # Mockk(Mockito-Kotlin)
 
-이번에 코틀린 / 스프링으로 코딩하는 중 unit test를 mockito를 활용하여 진행하게 되었다.  찾아보는 중 kotlin에서 사용하는 mockito라는 것을 발견하였다. 일반 mockito-core 라이브러리가아닌 mockk 라이브러리를 사용하였다. mockk 라이브러리를 이용하여 테스트 해볼 계층은 Service Layer이다. 
+이번에 코프링으로 개발하면서 unit test를 mockito를 활용하여 진행하게 되었다. unit test에 관해 찾아보는 중 kotlin에서 사용하는 mockk 라는 라이브러리를 발견하였다. 일반적으로 많이 사용되는 mockito-core 라이브러리도 고민 해보았지만 kotlin스럽게 개발할 수 있는 mockk에 더 끌리게 되었다. 그렇게 mockk 라이브러리를 이용하여 테스트를 진행했고 Service Layer 계층에 관해 unit test를 하였고 이를 정리해보았다.
 
 ### 의존성 설정
 
