@@ -10,7 +10,7 @@
 
 ### index를 적용할 경우
 
-![Untitled](%F0%9F%9A%8FINDEX%2042a723c4c9c94f55a5a2ea5a3142de46/Untitled.png)
+![Untitled](🚏INDEX/Untitled.png)
 
 인덱스를 적용하지 않고 탐색을 진행하게 되면 최악의 경우 모든 데이터를 탐색하게 되어서 O(n)만큼 탐색하게 된다. 인덱스를 적용하게 되면 데이터를 찾는 범위를 매번 절반씩 줄일 수 있기 때문에 시간 복잡도는 O(log n)만큼 걸리게 된다.
 
@@ -30,14 +30,14 @@
     - 테이블이 생성될 때 자동으로 생성되는 인덱스이다.
     - 자동으로 생성되기 때문에 명시적으로 생성할 필요가 없다.
 
-![Untitled](%F0%9F%9A%8FINDEX%2042a723c4c9c94f55a5a2ea5a3142de46/Untitled%201.png)
+![Untitled](🚏INDEX/Untitled%201.png)
 
 - Non-Clustered index
     - Non-Clustered index는 기본 테이블의 특정 필드에 대한 정렬된 참조로 테이블의 원래 항목에 대한 포인터를 유지한다.
     - 비클러스터형 인덱스는 데이터 자체를 저장하는 대신 메모리 주소를 가리킨다. 따라서 Clustered index보다 쿼리 속도가 느리지만 일반적으로 인덱싱되지 않은 열보다 훨씬 빠르다.
     - 일반적으로 자동으로 생성된 인덱스가 아니라면 non-clustered 인덱스이다.
     
-    ![Untitled](%F0%9F%9A%8FINDEX%2042a723c4c9c94f55a5a2ea5a3142de46/Untitled%202.png)
+    ![Untitled](🚏INDEX/Untitled%202.png)
     
 
 참조
