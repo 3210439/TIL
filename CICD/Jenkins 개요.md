@@ -64,3 +64,7 @@ services:
 `Pipeline project`
 
 - freestyle 과 비슷하지만 pipeline의 Definition을 스크립트 형태로 설정할 수 있다.
+
+
+참조
+한 번에 끝내는 AWS 인프라 구축과 DevOps 운영 초격차 패키지 Online.
