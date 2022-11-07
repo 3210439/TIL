@@ -32,7 +32,7 @@ git switch <branchname>
 git branch -d <branchname>
 ```
 
-로컬에서 생성한 브랜치 원격 저장소에 반영하기
+### 로컬에서 생성한 브랜치 원격 저장소에 반영하기
 
 - 해당 브랜치에 커밋한 내역도 같이 반영된다.
 
