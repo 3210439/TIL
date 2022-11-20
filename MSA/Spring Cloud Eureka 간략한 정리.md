@@ -1,6 +1,6 @@
 # Spring Cloud Eureka 간략한 정리
 
-Status: In progress
+
 
 ## Eureka란?
 
