@@ -40,6 +40,11 @@ git branch -d <branchname>
 git branch -u origin <branchname>
 ```
 
+혹은
+```jsx
+it push --set-upstream origin <branchname>
+```
+
 원격의 브랜치 삭제
 
 ```jsx
