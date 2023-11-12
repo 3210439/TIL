@@ -6,7 +6,7 @@
 - 다양한 Plugins 연동
     - Build Plugins: Maven, Gradle
     - VCS Plugins: Git, SVN
-    - Lanaguages Plugins: Java, Python, Node.js
+    - Languages Plugins: Java, Python, Node.js
 
 CI/CD tool 에는 Jenkins, circleci, TeamCity, Bamboo, GitLab이 있지만 여기서 오픈 소스로 운용 되는 것은 Jenkins 밖에 없으며 Build Agent License Pricing도 다른 서비스와 달리 무료로 제공된다.
 
