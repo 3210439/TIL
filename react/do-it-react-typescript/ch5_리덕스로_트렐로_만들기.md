@@ -5,17 +5,11 @@ do it react 책을 공부하면서 재밌어 보였던 트렐로를 만드는 �
 
 ## Redux
 ---
-```
-Redux is a pattern and library for managing and updating application state, using events called "actions". It serves as a centralized store for state that needs to be used across your entire application, with rules ensuring that the state can only be updated in a predictable fashion.
-```
-위 설명은 공식 문서에서 빌려왔다. 정리하면 리덕스는 애플리케이션 상태를 관리하는 라이브러리이다. 한 곳에서 정보를 관리하며 action을 통해서 값을 변경할 수 있다. 리덕스를 사용하는 이유는 다음과 같다. 점차 애플리케이션이 성장하고 컴포넌트 수가 많아짐에 따라 다수의 컴포넌트가 상태 값을 공유하는 상황이 발생하며 코드도 복잡해진다. 각각이 별도의 state값을 생성해서 관리하게 되면 개발 복잡성이 증가하고 자원 낭비로 이어질 수 있다. 이를 위해서 한 곳에서 상태 값을 관리하며 여러 컴포넌트 간에 원활한 상태 공유가 필요한데 이 문제를 Redux가 해결해준다.
+리덕스는 애플리케이션 상태를 관리하는 라이브러리이다. 한 곳에서 정보를 관리하며 action을 통해서 값을 변경할 수 있다. 리덕스를 사용하는 이유는 다음과 같다. 점차 애플리케이션이 성장하고 컴포넌트 수가 많아짐에 따라 다수의 컴포넌트가 상태 값을 공유하는 상황이 발생하며 코드도 복잡해진다. 각각이 별도의 state값을 생성해서 관리하게 되면 개발 복잡성이 증가하고 자원 낭비로 이어질 수 있다. 이를 위해서 한 곳에서 상태 값을 관리하며 여러 컴포넌트 간에 원활한 상태 공유가 필요한데 이 문제를 Redux가 해결해준다.
 일반적으로 자바스크립트를 사용하게 되면 값이 mutable 하여 변수의 값이 기본적으로 쉽게 변경될 수 있다. 이러한 단점을 redux는 값의 변경을 immutable 하게 업데이트할 수 있도록 도와준다. 리덕스에는 크게 3가지 기능이 있다. action, reducer, store이다. 
 
 ### action
 ---
-```
-An action is a plain JavaScript object that has a `type` field. You can think of an action as an event that describes something that happened in the application.
-```
 공식 문서의 설명에 따르면 action은 애플리케이션에서 어떤 이벤트가 발생한 것을 알리는 기능을 수행한다. 액션의 실제 역할을 보면 redux store에 값을 업데이트를 위해서 사용된다. 액션은 2가지 변수를 가지는데 type과 payload이다. type은 값을 어떻게 변경할지에 관한 문자열이며 "domain/eventName" 과 같은 규칙을 지닌다. 이러한 규칙을 가지는 한 곳에서 데이터를 관리하며 규모가 커질 수록 구분을 잘 하기 위해서이다. 그리고 payload에는 변경할 값이 담기게 된다. action에는 값을 변경 시키는 로직은 포함되지 않는다. 값을 변경하는 로직은 reducer에 포함된다.
 
 ```javascript
@@ -76,7 +70,7 @@ entities란 객체를 하나 만들어서 id_값: 아이템 형태로 여러 개
 ---
 react dnd, react beautiful dnd 모두 드래그엔 드랍을 구현하기 위해서 사용된다. 책에서는 React dnd를 사용하다가 react beautiful dnd를 사용하는 예제로 넘어가게 된다. 트렐로에서는 카드 리스트를 드래그엔 드랍 할 수 있고 카드 리스트안에 있는 카드들을 다른 리스트의 요소로 드래그엔 드랍도 할 수 있다. 다른 리스트의 요소를 다른 리스트로 드래그엔 드랍 하기 위해서는 React-dnd로는 구현할 수 없는 기능이기 때문에  react-beautiful-dnd를 사용하게 된다. 하지만 react-beautiful-dnd는 1년 전에 업데이트가 멈춘 모양이며 rpm으로 패키지를 다운로드할 때 legacy 옵션을 줘야 다운로드 할 수 있다. github에 react-beautiful-dnd의 예제가 있는데 이해하는데 매우 도움이 된다.
 
-참조
-https://github.com/atlassian/react-beautiful-dnd
-https://redux.js.org/tutorials/essentials/part-1-overview-concepts
-https://product.kyobobook.co.kr/detail/S000200550965
+참조 <br>
+https://github.com/atlassian/react-beautiful-dnd <br>
+https://redux.js.org/tutorials/essentials/part-1-overview-concepts <br>
+https://product.kyobobook.co.kr/detail/S000200550965 <br>
